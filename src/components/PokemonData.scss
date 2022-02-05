@@ -1,0 +1,26 @@
+@import '../css/variables.scss';
+
+section {
+  background-color: $poke-white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+  &.heading {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+  }
+
+  img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+
+  .title {
+    color: $poke-red;
+  }
+}
